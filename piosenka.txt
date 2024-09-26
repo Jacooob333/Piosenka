@@ -1,8 +1,5 @@
 Zwrotka1.txt
-Za to do puszki zamykano mnie
-Za to zwykle zamykano mnie
-Po knajpach grywałem za piwko i chleb
-Na szyciu bluesa tak mijał mi dzień
+Zwrotka2.txt
 Tylko nocą do klubu Puls
 Dżem Session do rana, tam królował blues
 To już minęło, ten klimat, ten luz
