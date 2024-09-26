@@ -1,7 +1,5 @@
 Zwrotka1.txt
 Zwrotka2.txt
-Refren1.txt
+Refren.txt
 Zwrotka3.txt
 Zwrotka4.txt
-Refren2.txt
-Refren3.txt
