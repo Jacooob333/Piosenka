@@ -1,0 +1,391 @@
+Log pliku piosenka.txt 
+$ git log -p piosenka.txt
+commit 444ae352ecafb4bcf080ed5b5aaf5c245b47b5ff (HEAD -> master)
+Author: Jacooob333 <kuba.stankowski@onet.pl>
+Date:   Thu Sep 26 14:04:33 2024 +0200
+
+    Utworzenie jednego refrenu i zmiana w piosenka.txt
+
+diff --git a/piosenka.txt b/piosenka.txt
+index 4a5b852..ddbf162 100644
+--- a/piosenka.txt
++++ b/piosenka.txt
+@@ -1,7 +1,5 @@
+ Zwrotka1.txt
+ Zwrotka2.txt
+-Refren1.txt
++Refren.txt
+ Zwrotka3.txt
+ Zwrotka4.txt
+-Refren2.txt
+-Refren3.txt
+\ No newline at end of file
+
+commit ac06eb1c953db1d0ad1fc015b28fb986bf7f7e39
+Author: Jacooob333 <kuba.stankowski@onet.pl>
+Date:   Thu Sep 26 13:43:31 2024 +0200
+
+    Przeniesienie Refrenu 3
+
+diff --git a/piosenka.txt b/piosenka.txt
+index d5fd2de..4a5b852 100644
+--- a/piosenka.txt
++++ b/piosenka.txt
+@@ -4,7 +4,4 @@ Refren1.txt
+ Zwrotka3.txt
+ Zwrotka4.txt
+ Refren2.txt
+-Tylko nocą do klubu Puls
+-Dżem Session do rana, tam królował blues
+-To już minęło, ten klimat, ten luz
+-Wspaniali ludzie nie powrócą, nie powrócą już nie!
+\ No newline at end of file
++Refren3.txt
+\ No newline at end of file
+
+commit 1de11aa307d973642267b1a048d6fb23977a1d7c
+Author: Jacooob333 <kuba.stankowski@onet.pl>
+Date:   Thu Sep 26 13:42:26 2024 +0200
+
+    Przeniesienie Refrenu 2
+
+diff --git a/piosenka.txt b/piosenka.txt
+index 4757711..d5fd2de 100644
+--- a/piosenka.txt
++++ b/piosenka.txt
+@@ -3,10 +3,7 @@ Zwrotka2.txt
+ Refren1.txt
+ Zwrotka3.txt
+ Zwrotka4.txt
+-Tylko nocą do klubu Puls
+-Dżem Session do rana, tam królował blues
+-To już minęło, te czasy, ten luz
+-Wspaniali ludzie nie powrócą, nie powrócą już!
++Refren2.txt
+ Tylko nocą do klubu Puls
+ Dżem Session do rana, tam królował blues
+ To już minęło, ten klimat, ten luz
+
+commit aa9734b90af1859b77f7862fe9310bbc302c666b
+Author: Jacooob333 <kuba.stankowski@onet.pl>
+Date:   Thu Sep 26 13:41:03 2024 +0200
+
+    Przeniesienie Zwrotki 4
+
+diff --git a/piosenka.txt b/piosenka.txt
+index f79d288..4757711 100644
+--- a/piosenka.txt
++++ b/piosenka.txt
+@@ -2,10 +2,7 @@ Zwrotka1.txt
+ Zwrotka2.txt
+ Refren1.txt
+ Zwrotka3.txt
+-Dużo bym dał, by przeżyć to znów
+-Wehikuł czasu to byłby cud
+-Mam jeszcze wiarę, odmieni się los
+-Znów kwiatek do lufy wetknie im ktoś
++Zwrotka4.txt
+ Tylko nocą do klubu Puls
+ Dżem Session do rana, tam królował blues
+ To już minęło, te czasy, ten luz
+
+commit 286844e7089bfea67117970b1bbf461d0b1caedc
+Author: Jacooob333 <kuba.stankowski@onet.pl>
+Date:   Thu Sep 26 13:39:45 2024 +0200
+
+    Przeniesienie Zwrotki 3
+
+diff --git a/piosenka.txt b/piosenka.txt
+index 267bf0e..f79d288 100644
+--- a/piosenka.txt
++++ b/piosenka.txt
+@@ -1,10 +1,7 @@
+ Zwrotka1.txt
+ Zwrotka2.txt
+ Refren1.txt
+-Lecz we mnie zostało coś z tamtych lat
+-Mój mały, intymny, muzyczny świat
+-Gdy tak wspominam ten miniony czas
+-Wiem jedno, że to nie poszło w las
++Zwrotka3.txt
+ Dużo bym dał, by przeżyć to znów
+ Wehikuł czasu to byłby cud
+ Mam jeszcze wiarę, odmieni się los
+
+commit 84a63ae0061b7772f1f309d55c1d351be05d9055
+Author: Jacooob333 <kuba.stankowski@onet.pl>
+Date:   Thu Sep 26 13:38:18 2024 +0200
+
+    Przeniesienie Refrenu 1
+
+diff --git a/piosenka.txt b/piosenka.txt
+index 2636f73..267bf0e 100644
+--- a/piosenka.txt
++++ b/piosenka.txt
+@@ -1,9 +1,6 @@
+ Zwrotka1.txt
+ Zwrotka2.txt
+-Tylko nocą do klubu Puls
+-Dżem Session do rana, tam królował blues
+-To już minęło, ten klimat, ten luz
+-Wspaniali ludzie nie powrócą, nie powrócą już!
++Refren1.txt
+ Lecz we mnie zostało coś z tamtych lat
+ Mój mały, intymny, muzyczny świat
+ Gdy tak wspominam ten miniony czas
+
+commit f4ac3c1128a79aa7f13f1569cf3cc60977bc81a2
+Author: Jacooob333 <kuba.stankowski@onet.pl>
+Date:   Thu Sep 26 13:35:40 2024 +0200
+
+    Przeniesienie Zwrotki 2
+
+diff --git a/piosenka.txt b/piosenka.txt
+index 3f7b01c..2636f73 100644
+--- a/piosenka.txt
++++ b/piosenka.txt
+@@ -1,8 +1,5 @@
+ Zwrotka1.txt
+-Za to do puszki zamykano mnie
+-Za to zwykle zamykano mnie
+-Po knajpach grywałem za piwko i chleb
+-Na szyciu bluesa tak mijał mi dzień
++Zwrotka2.txt
+ Tylko nocą do klubu Puls
+ Dżem Session do rana, tam królował blues
+ To już minęło, ten klimat, ten luz
+
+commit 700c3c5a8fb2d4ce4365b9df572679ba3f64b00e
+Author: Jacooob333 <kuba.stankowski@onet.pl>
+Date:   Thu Sep 26 13:32:31 2024 +0200
+
+    Przeniesienie Zwrotki 1
+
+diff --git a/piosenka.txt b/piosenka.txt
+index 84dbefc..3f7b01c 100644
+--- a/piosenka.txt
++++ b/piosenka.txt
+@@ -1,7 +1,4 @@
+-Pamiętam dobrze ideał swój
+-Marzeniami żyłem jak król
+-Siódma rano to dla mnie noc
+-Pracować nie chciałem, włóczyłem się
++Zwrotka1.txt
+ Za to do puszki zamykano mnie
+ Za to zwykle zamykano mnie
+ Po knajpach grywałem za piwko i chleb
+
+commit a629f8a4b243a95ee367fcdad1c46133a1e7d30c
+Author: Jacooob333 <kuba.stankowski@onet.pl>
+Date:   Thu Sep 26 13:26:21 2024 +0200
+
+    Dodanie Piosenki z tekstem
+
+diff --git a/piosenka.txt b/piosenka.txt
+new file mode 100644
+index 0000000..84dbefc
+--- /dev/null
++++ b/piosenka.txt
+@@ -0,0 +1,28 @@
++Pamiętam dobrze ideał swój
++Marzeniami żyłem jak król
++Siódma rano to dla mnie noc
++Pracować nie chciałem, włóczyłem się
++Za to do puszki zamykano mnie
++Za to zwykle zamykano mnie
++Po knajpach grywałem za piwko i chleb
++Na szyciu bluesa tak mijał mi dzień
++Tylko nocą do klubu Puls
++Dżem Session do rana, tam królował blues
++To już minęło, ten klimat, ten luz
++Wspaniali ludzie nie powrócą, nie powrócą już!
++Lecz we mnie zostało coś z tamtych lat
++Mój mały, intymny, muzyczny świat
++Gdy tak wspominam ten miniony czas
++Wiem jedno, że to nie poszło w las
++Dużo bym dał, by przeżyć to znów
++Wehikuł czasu to byłby cud
++Mam jeszcze wiarę, odmieni się los
++Znów kwiatek do lufy wetknie im ktoś
++Tylko nocą do klubu Puls
++Dżem Session do rana, tam królował blues
++To już minęło, te czasy, ten luz
++Wspaniali ludzie nie powrócą, nie powrócą już!
++Tylko nocą do klubu Puls
++Dżem Session do rana, tam królował blues
++To już minęło, ten klimat, ten luz
++Wspaniali ludzie nie powrócą, nie powrócą już nie!
+\ No newline at end of file
+
+
+Log Pliku Refren.txt 
+$ git log -p Refren.txt
+commit 444ae352ecafb4bcf080ed5b5aaf5c245b47b5ff (HEAD -> master)
+Author: Jacooob333 <kuba.stankowski@onet.pl>
+Date:   Thu Sep 26 14:04:33 2024 +0200
+
+    Utworzenie jednego refrenu i zmiana w piosenka.txt
+
+diff --git a/Refren.txt b/Refren.txt
+new file mode 100644
+index 0000000..7d7afaf
+--- /dev/null
++++ b/Refren.txt
+@@ -0,0 +1,4 @@
++Tylko nocą do klubu Puls
++Dżem Session do rana, tam królował blues
++To już minęło, ten klimat, ten luz
++Wspaniali ludzie nie powrócą, nie powrócą już!
+\ No newline at end of file
+
+Log Pliku Zwrotka1.txt
+$ git log -p Zwrotka1.txt
+commit 700c3c5a8fb2d4ce4365b9df572679ba3f64b00e
+Author: Jacooob333 <kuba.stankowski@onet.pl>
+Date:   Thu Sep 26 13:32:31 2024 +0200
+
+    Przeniesienie Zwrotki 1
+
+diff --git a/Zwrotka1.txt b/Zwrotka1.txt
+new file mode 100644
+index 0000000..f53655d
+--- /dev/null
++++ b/Zwrotka1.txt
+@@ -0,0 +1,4 @@
++Pamiętam dobrze ideał swój
++Marzeniami żyłem jak król
++Siódma rano to dla mnie noc
++Pracować nie chciałem, włóczyłem się
+\ No newline at end of file
+
+Log Pliku Zwrotka2.txt
+$ git log -p Zwrotka2.txt
+commit f4ac3c1128a79aa7f13f1569cf3cc60977bc81a2
+Author: Jacooob333 <kuba.stankowski@onet.pl>
+Date:   Thu Sep 26 13:35:40 2024 +0200
+
+    Przeniesienie Zwrotki 2
+
+diff --git a/Zwrotka2.txt b/Zwrotka2.txt
+new file mode 100644
+index 0000000..754dea5
+--- /dev/null
++++ b/Zwrotka2.txt
+@@ -0,0 +1,4 @@
++Za to do puszki zamykano mnie
++Za to zwykle zamykano mnie
++Po knajpach grywałem za piwko i chleb
++Na szyciu bluesa tak mijał mi dzień
+\ No newline at end of file
+
+Log Pliku Zwrotka3.txt
+$ git log -p Zwrotka3.txt
+commit 286844e7089bfea67117970b1bbf461d0b1caedc
+Author: Jacooob333 <kuba.stankowski@onet.pl>
+Date:   Thu Sep 26 13:39:45 2024 +0200
+
+    Przeniesienie Zwrotki 3
+
+diff --git a/Zwrotka3.txt b/Zwrotka3.txt
+new file mode 100644
+index 0000000..6c2f534
+--- /dev/null
++++ b/Zwrotka3.txt
+@@ -0,0 +1,4 @@
++Lecz we mnie zostało coś z tamtych lat
++Mój mały, intymny, muzyczny świat
++Gdy tak wspominam ten miniony czas
++Wiem jedno, że to nie poszło w las
+\ No newline at end of file
+
+Log Pliku Zwrotka4.txt
+$ git log -p Zwrotka4.txt
+commit aa9734b90af1859b77f7862fe9310bbc302c666b
+Author: Jacooob333 <kuba.stankowski@onet.pl>
+Date:   Thu Sep 26 13:41:03 2024 +0200
+
+    Przeniesienie Zwrotki 4
+
+diff --git a/Zwrotka4.txt b/Zwrotka4.txt
+new file mode 100644
+index 0000000..6522976
+--- /dev/null
++++ b/Zwrotka4.txt
+@@ -0,0 +1,4 @@
++Dużo bym dał, by przeżyć to znów
++Wehikuł czasu to byłby cud
++Mam jeszcze wiarę, odmieni się los
++Znów kwiatek do lufy wetknie im ktoś
+\ No newline at end of file
+
+Log z całego zadnia
+$ git log
+commit 444ae352ecafb4bcf080ed5b5aaf5c245b47b5ff (HEAD -> master)
+Author: Jacooob333 <kuba.stankowski@onet.pl>
+Date:   Thu Sep 26 14:04:33 2024 +0200
+
+    Utworzenie jednego refrenu i zmiana w piosenka.txt
+
+commit 647b11c87cede8d5168343198ccfd8fd83901a02
+Author: Jacooob333 <kuba.stankowski@onet.pl>
+Date:   Thu Sep 26 13:53:53 2024 +0200
+
+    Revert "Usuniecie jednej lini z refrenu"
+
+    This reverts commit e1d95a73b20b737712d044a1a43f3ce575994a4f.
+
+commit e1d95a73b20b737712d044a1a43f3ce575994a4f
+Author: Jacooob333 <kuba.stankowski@onet.pl>
+Date:   Thu Sep 26 13:50:07 2024 +0200
+
+    Usuniecie jednej lini z refrenu
+
+commit ac06eb1c953db1d0ad1fc015b28fb986bf7f7e39
+Author: Jacooob333 <kuba.stankowski@onet.pl>
+Date:   Thu Sep 26 13:43:31 2024 +0200
+
+    Przeniesienie Refrenu 3
+
+commit 1de11aa307d973642267b1a048d6fb23977a1d7c
+Author: Jacooob333 <kuba.stankowski@onet.pl>
+Date:   Thu Sep 26 13:42:26 2024 +0200
+
+    Przeniesienie Refrenu 2
+
+commit aa9734b90af1859b77f7862fe9310bbc302c666b
+Author: Jacooob333 <kuba.stankowski@onet.pl>
+Date:   Thu Sep 26 13:41:03 2024 +0200
+
+    Przeniesienie Zwrotki 4
+
+commit 286844e7089bfea67117970b1bbf461d0b1caedc
+Author: Jacooob333 <kuba.stankowski@onet.pl>
+Date:   Thu Sep 26 13:39:45 2024 +0200
+
+    Przeniesienie Zwrotki 3
+
+commit 84a63ae0061b7772f1f309d55c1d351be05d9055
+Author: Jacooob333 <kuba.stankowski@onet.pl>
+Date:   Thu Sep 26 13:38:18 2024 +0200
+
+    Przeniesienie Refrenu 1
+
+commit f4ac3c1128a79aa7f13f1569cf3cc60977bc81a2
+Author: Jacooob333 <kuba.stankowski@onet.pl>
+Date:   Thu Sep 26 13:35:40 2024 +0200
+
+    Przeniesienie Zwrotki 2
+
+commit 700c3c5a8fb2d4ce4365b9df572679ba3f64b00e
+Author: Jacooob333 <kuba.stankowski@onet.pl>
+Date:   Thu Sep 26 13:32:31 2024 +0200
+
+    Przeniesienie Zwrotki 1
+
+commit a629f8a4b243a95ee367fcdad1c46133a1e7d30c
+Author: Jacooob333 <kuba.stankowski@onet.pl>
+Date:   Thu Sep 26 13:26:21 2024 +0200
+
+    Dodanie Piosenki z tekstem
+
+
